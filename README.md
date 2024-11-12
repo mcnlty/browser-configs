@@ -39,3 +39,34 @@
 11. Run the prefsCleaner again.
 
 12. Done.
+
+## uBlock Origin
+
+* [Install uBlock Origin](https://addons.mozilla.org/addon/ublock-origin/)
+
+### Enable Hard Mode
+
+// **Settings tab:**
+
+* I am an advanced user: ***checked***
+* Disable JavaScript: ***checked***
+* (Optional) Block remote fonts: ***checked***
+* (Optional) Disable cosmetic filtering: ***checked***
+
+// **Filter lists tab:**
+
+Privacy
+* AdGuard URL Tracking Protection: ***checked***
+
+Custom > Import
+* https://raw.githubusercontent.com/DandelionSprout/adfilt/master/LegitimateURLShortener.txt
+
+Click ***Apply Changes***.
+
+// **My rules tab**
+
+* Add `* * 3p block`
+* Add `* * 3p-script block`
+* Add `* * 3p-frame block`
+
+Click ***Save*** then Click ***Commit***
